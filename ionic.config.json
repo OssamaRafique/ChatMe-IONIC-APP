@@ -1,6 +1,8 @@
 {
   "name": "chatme",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular",
   "id": "c58cab06"
 }

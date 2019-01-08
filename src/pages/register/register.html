@@ -1,6 +1,6 @@
 <ion-content class="page">
 <div [ngClass]="'login-header'"></div>
-<h1 [ngClass]="'title'">Login</h1>
+<h1 [ngClass]="'title'">Register</h1>
 <ion-list>
 
     <ion-item>
@@ -13,9 +13,9 @@
       <ion-input type="password" [(ngModel)]="userPassword"></ion-input>
     </ion-item>
       <div padding text-center margin-top>
-          <button ion-button icon-end padding (click)="btnLogin()">Login <ion-icon name="arrow-forward"></ion-icon>
+          <button ion-button icon-end padding (click)="btnRegister()">Register <ion-icon name="arrow-forward"></ion-icon>
           </button>
       </div>
   </ion-list>
-  <p class="authform" text-center (click)='openRegister()'>or create an account now</p>
+  <p class="authform" text-center (click)='openLogin()'>or login into your account now</p>
   </ion-content>
